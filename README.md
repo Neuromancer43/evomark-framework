@@ -19,11 +19,22 @@ EvoMark Framework requires the following dependencies to install
 - npm
 - yarn
 
-Here we provide script for install the dependencies on ubuntu
+Here we provide script for install the dependencies 
+
+**Ubuntu**
 ```bash
 sudo apt update
 sudo apt -y install nodejs # Install nodejs
 sudo apt -y install npm # Install npm
+sudo npm install -g n # Update nodejs
+sudo n stable # Update nodejs
+sudo npm install -g yarn
+```
+
+**Manjaro**
+```bash
+sudo pacman -S nodejs # Install nodejs
+sudo pacman -S npm # Install npm
 sudo npm install -g n # Update nodejs
 sudo n stable # Update nodejs
 sudo npm install -g yarn
